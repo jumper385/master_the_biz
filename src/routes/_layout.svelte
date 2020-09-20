@@ -12,7 +12,7 @@
 
 <Nav/>
 
-<main>
+<main style='margin-top:72pt'>
 	<slot></slot>
 </main>
 
