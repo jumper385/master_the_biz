@@ -1,20 +1,4 @@
-<style>
-	.landing {
-		height:100vh;
-		color:white;
-		background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');
-		background-color: rgba(0,0,0.5);
-		background-size: cover;
-		background-position: center;
-		display:flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-</style>
-
-
-<div class='landing'>
+<div class='landing' style='background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");'>
 	<div style='display:flex; align-items: center; justify-content: center; margin-bottom:32pt'>
 		<h1 style='margin:0 12pt'>Business Consulting</h1>
 		<h1 style='margin:0 12pt'>Business Automation</h1>

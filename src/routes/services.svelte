@@ -1,21 +1,5 @@
-<style>
-    .landing {
-        background: url('https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80');
-        background-size: cover;
-        height:100vh;
-        width:100%;
-        box-sizing:border-box;
-        margin:0;
-        padding:0;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        color:white;
-    }
-</style>
-
-<div class='landing'>
-    <h1 style='font-weight:bold'>Our Services</h1>
+<div class='landing' style='background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80");'>
+    <h1>Our Services</h1>
 </div>
 
 <article class='page_section'>
