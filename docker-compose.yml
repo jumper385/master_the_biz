@@ -5,4 +5,4 @@ services:
     build: web
     restart: unless-stopped
     ports:
-      - "3000"
+      - "60:3000"
