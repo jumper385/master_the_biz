@@ -11,6 +11,7 @@
 		grid-template-columns: 1fr 4fr;
 		background:#1A1A2E;
 		color:white;
+		height:72pt;
 	}
 	.top {
 		text-align: right;
