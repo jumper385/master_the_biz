@@ -8,6 +8,12 @@
 		box-sizing:border-box;
 		background:#F4F6FF;
 	}
+
+	@media only screen and (max-width: 800px) {
+		main {
+			margin-top: 0 !important;
+		}
+	}
 </style>
 
 <Nav/>

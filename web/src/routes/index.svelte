@@ -1,11 +1,41 @@
+<style>
+	@media only screen and (max-width: 800px) {
+		.landing_text_container {
+			width:60vw;
+			padding:24pt;
+			background: #31313780;
+		}
+		.landing_text {
+			display:flex;
+			flex-direction:column;
+			text-align:center;
+		}
+
+		.landing_text h1 {
+			padding: 6pt 0 !important;
+		}
+
+		.landing_description {
+			width:100% !important;
+			padding: 0 12pt;
+			box-sizing:border-box;
+			text-align: justify;
+			text-justify: inter-text;
+		}
+	}
+</style>
+
 <div class='landing' style='background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");'>
-	<div style='display:flex; align-items: center; justify-content: center; margin-bottom:32pt'>
-		<h1 style='margin:0 12pt'>Business Consulting</h1>
-		<h1 style='margin:0 12pt'>Business Automation</h1>
-		<h1 style='margin:0 12pt'>Book Keeping</h1>
+	<div class='landing_text_container'>
+		<div class='landing_text' style='display:flex; align-items: center; justify-content: center; margin-bottom:32pt'>
+			<h1 style='margin:0 12pt'>Business Consulting</h1>
+			<h1 style='margin:0 12pt'>Business Automation</h1>
+			<h1 style='margin:0 12pt'>Book Keeping</h1>
+		</div>
+	
+		<p class='landing_description' style='text-align:center; width:40vw; margin:0 auto;'>At master the books, we strive to do more lorem ipsum to ensure that our clinets are even more lorem ipsum.</p>
 	</div>
 
-	<p style='text-align:center; width:40vw; margin:0 auto;'>At master the books, we strive to do more lorem ipsum to ensure that our clinets are even more lorem ipsum. Chuck tongue capicola, kielbasa pastrami doner turkey. Doner ball tip drumstick cupim. Burgdoggen pork belly ground round, brisket shank ball tip meatloaf pastrami spare ribs sausage sirloin frankfurter fatback short loin.</p>
 </div>
 
 <div class = 'page_section'>
