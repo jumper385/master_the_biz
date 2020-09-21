@@ -6,7 +6,7 @@
 <style>
 	* {
 		box-sizing:border-box;
-		background:#F4F6FF;
+		/* background:#F4F6FF; */
 	}
 
 	@media only screen and (max-width: 800px) {
