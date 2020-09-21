@@ -1,8 +1,8 @@
 <style>
     .landing {
-        background: url('https://images.unsplash.com/photo-1589065762045-d57321df431a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1568&q=80');
+        background: url('https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80');
         background-size: cover;
-        color:white;
+        color:black;
     }
     .profile_picture {
         object-fit: cover;
